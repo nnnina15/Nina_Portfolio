@@ -4,8 +4,9 @@
         <title>About Nina</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="X-UA_Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="cache-control" content="no-cache">
         <meta http-equiv="expires" content="0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,11 +21,18 @@
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
             crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-        <link rel="stylesheet" href="css/flexslider.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <input type="checkbox" name="" id="menu-control">
         <header class="header" id="navbar-collapse-toggle">
+            <div class="shape-ex9">
+                <h1>PORTFOLIO</h1>
+                <label for="menu-control" class="menu-btn">
+                    <span>選單</span>
+                </label>
+            </div>
             <ul class='icon-menu'>
                 <li class="icon-box .menu-item">
                     <i class="fa fa-home"></i>
@@ -43,7 +51,6 @@
                     <a class="nav-link" href="#contact"><p>CONTACT</p></a>
                 </li>
             </ul>
-            <div class="shape-ex9"></div>
         </header>
 
         <section id="loader">
@@ -53,14 +60,14 @@
             </div>
         </section>
 
-        <section id="home" class="section">
+        <section id="home" class="home section">
             <h5 class="left-item bg-item1 font-black">PORTFOLIO</h5>
             <div class="container d-flex w-100 h-100">
                 <div class="row align-items-center">
                     <div class="col text-end">
                         <div class="shape-ex1"></div>
                         <h1>PORTFOLIO</h1>
-                        <img src="pictures/A8F98FA4-1450-4E1C-B23B-3665383FC184.JPG" alt="">
+                        <img src="https://scontent.frmq5-1.fna.fbcdn.net/v/t39.30808-6/272131306_658467338845982_8769407992309534773_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=abH9p9Bq1u0AX8I11Zx&_nc_ht=scontent.frmq5-1.fna&oh=00_AT9c7D1qweg7EtvuwFeb4JX9--DfhPwThor3hCAL0ZxpSw&oe=61EDADE8" alt="">
                     </div>
                     <div class="col-md-4 introduce">
                         <h2>HELLO!</h2>
@@ -74,7 +81,7 @@
             </div>
         </section>
 
-        <section id="aboutme" class="section">
+        <section id="aboutme" class="aboutme section">
             <h5 class="right-item bg-item2 font-light">ABOUT ME</h5>
             <div class="shape-ex2"></div>
             <div class="container">
@@ -89,7 +96,7 @@
                         <p>Birthday : 1999/01/05</p>
                         <p>Age : 22 Years</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <p>Nationality  :  香港 Hong Kong</p>
                         <p>Addres : 台中 Taichung</p>
                     </div>
@@ -108,7 +115,6 @@
 ・ 熟悉 HTML5 / CSS3 網設 
 ・ 手刻 RWD 響應式網站
 ・ 熟悉 Bootstrap 使用
-・ 學習 Sass/Scss 中
                         </p>
                     </div>
                     <div class="col-md-4 font-light">
@@ -116,7 +122,7 @@
                         <p class="pre-wrap skill-p skill-item-light">
 ・ 了解 JavaScript 基本語法 
 ・ 略懂 ES6 語言特性
-・ 了解 jQuery 基礎略懂應用方法
+・ 了解 jQuery 基礎略懂應用
 ・ 使用 GSAP3 做動畫與特效
 ・ 使用 Vue.js 完成 SPA 網站
 ・ 略懂 Nuxt.js 
@@ -129,10 +135,10 @@
 ・ 了解 PHP 基本語法 
 ・ 使用 MYSQL 
 ・ 使用 Wordpress 架網站
-・ 學習 Strapi 中
-・ 學習 Nodejs 中
-・ 學習 AXIOS 中
-・ 學習 Restful API 中
+・ 略懂 Strapi 
+・ 略懂 Nodejs 
+・ 略懂 AXIOS
+・ 略懂 Restful API
                         </p>
                     </div>
                 </div>
@@ -146,6 +152,8 @@
 ・ Adobe llustrator
 ・ Adobe InDesign
 ・ Adobe XD
+・ Zeplin
+・ Figma
                         </p>
                     </div>
                     <div class="col-md-4 font-black">
@@ -259,7 +267,7 @@
             </div>
         </section>
 
-        <section id="project" class="section">
+        <section id="project" class="project section">
             <h5 class="right-item bg-item3 font-light">PROJECT</h5>
             <div class="shape-ex7 light-bg">
                 <div class="overlay"></div>
@@ -269,103 +277,117 @@
                     <h1>PROJECT</h1>
                 </div>
             </div>
-            <div class="row-slider">
-                <div class="flexslider carousel">
-                    <ul class="slides">
-                        <li class="sc-bBjRzc erwumu">
-                            <a href="https://iamnashu.website/" target="_blank" class="sc-cOigif iGliNw">
-                                <figure class="sc-gSYCTC gexssS">
-                                    <img src="pictures/koparty.png" class="sc-ArjOu gcNFUB">
-                                    <div class="sc-khIgXV hzDxDo">
-                                        <p class="sc-hTRkEk ePCRNw">K.O. party</p>
-                                        <p class="sc-jgPznn MgGAx">Wordpress | Vesta | GoogleCloud | JS | AJAX | Bootstrap5 |</p>
-                                    </div>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="sc-bBjRzc erwumu">
-                            <a href="#" target="_blank" class="sc-cOigif iGliNw">
-                                <figure class="sc-gSYCTC gexssS">
-                                    <img src="pictures/threezero.png" class="sc-ArjOu gcNFUB">
-                                    <div class="sc-khIgXV hzDxDo">
-                                        <p class="sc-hTRkEk ePCRNw">Threezero租屋網</p>
-                                        <p class="sc-jgPznn MgGAx">Nuxt | MongoDB | JS | Bootstrap5 | Strapi | Linode</p>
-                                    </div>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="sc-bBjRzc erwumu">
-                            <a href="#" target="_blank" class="sc-cOigif iGliNw">
-                                <figure class="sc-gSYCTC gexssS">
-                                    <img src="pictures/portfolio.PNG" class="sc-ArjOu gcNFUB">
-                                    <div class="sc-khIgXV hzDxDo">
-                                        <p class="sc-hTRkEk ePCRNw">About Nina</p>
-                                        <p class="sc-jgPznn MgGAx">WebDesign | JS | Flexslider | GSAP | Bootstrap5</p>
-                                    </div>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="sc-bBjRzc erwumu">
-                            <a href="https://www.behance.net/gallery/133696323/_" target="_blank" class="sc-cOigif iGliNw">
-                                <figure class="sc-gSYCTC gexssS">
-                                    <img src="pictures/catshop.PNG" class="sc-ArjOu gcNFUB">
-                                    <div class="sc-khIgXV hzDxDo">
-                                        <p class="sc-hTRkEk ePCRNw">窩底家</p>
-                                        <p class="sc-jgPznn MgGAx">WebDesign | JS | Flexslider | Bootstrap5</p>
-                                    </div>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="sc-bBjRzc erwumu">
-                            <a href="https://iamnashu.website/" target="_blank" class="sc-cOigif iGliNw">
-                                <figure class="sc-gSYCTC gexssS">
-                                    <img src="pictures/koparty.png" class="sc-ArjOu gcNFUB">
-                                    <div class="sc-khIgXV hzDxDo">
-                                        <p class="sc-hTRkEk ePCRNw">K.O. party</p>
-                                        <p class="sc-jgPznn MgGAx">Wordpress | JS | AJAX | Bootstrap5</p>
-                                    </div>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="sc-bBjRzc erwumu">
-                            <a href="#" target="_blank" class="sc-cOigif iGliNw">
-                                <figure class="sc-gSYCTC gexssS">
-                                    <img src="pictures/threezero.png" class="sc-ArjOu gcNFUB">
-                                    <div class="sc-khIgXV hzDxDo">
-                                        <p class="sc-hTRkEk ePCRNw">Threezero租屋網</p>
-                                        <p class="sc-jgPznn MgGAx">Nuxt | MongoDB | JS | Bootstrap5 | Strapi | Linode</p>
-                                    </div>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="sc-bBjRzc erwumu">
-                            <a href="#" target="_blank" class="sc-cOigif iGliNw">
-                                <figure class="sc-gSYCTC gexssS">
-                                    <img src="pictures/portfolio.PNG" class="sc-ArjOu gcNFUB">
-                                    <div class="sc-khIgXV hzDxDo">
-                                        <P class="sc-hTRkEk ePCRNw">About Nina</p>
-                                        <p class="sc-jgPznn MgGAx">WebDesign | JS | Flexslider | GSAP | Bootstrap5</p>
-                                    </div>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="sc-bBjRzc erwumu">
-                            <a href="https://www.behance.net/gallery/133696323/_" target="_blank" class="sc-cOigif iGliNw">
-                                <figure class="sc-gSYCTC gexssS">
-                                    <img src="pictures/catshop.PNG" class="sc-ArjOu gcNFUB">
-                                    <div class="sc-khIgXV hzDxDo">
-                                        <p class="sc-hTRkEk ePCRNw">窩底家</p>
-                                        <p class="sc-jgPznn MgGAx">WebDesign | JS | Flexslider | Bootstrap5</p>
-                                    </div>
-                                </figure>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div id="wrapper">
+                <ul id="autoWidth" class="cs-hidden">
+                    <li>
+                        <div class="box">
+                        <a href="#">
+                        <figure class="slide-img threezero">
+                        <div class="pro">
+                        <p class="pro-title">Threezero租屋網</p>
+                        <p class="pro-content">Nuxt | MongoDB | JS | Bootstrap5 | Strapi | Linode</p>
+                        </div>
+                        <div class="overlay"></div>
+                        </figure>
+                        <a>
+                        </div>
+                    </li>
+                        <li>
+                        <div class="box">
+                        <a href="#">
+                        <figure class="slide-img koparty">
+                        <div class="pro">
+                        <p class="pro-title">K.O. party</p>
+                        <p class="pro-content">Wordpress | JS | AJAX | Bootstrap5</p>
+                        </div>
+                        <div class="overlay"></div>
+                        </figure>
+                        <a>
+                        </div>		
+                    </li>
+                    <li>
+                        <div class="box">
+                        <a href="#">
+                        <figure class="slide-img catshop">
+                        <div class="pro">
+                        <p class="pro-title">窩底家</p>
+                        <p class="pro-content">WebDesign | JS | Flexslider | Bootstrap5</p>
+                        </div>
+                        <div class="overlay"></div>
+                        </figure>
+                        <a>
+                        </div>		
+                    </li>
+                    <li>
+                        <div class="box">
+                        <a href="#">
+                        <figure class="slide-img portfolio">
+                        <div class="pro">
+                        <p class="pro-title">About Nina</p>
+                        <p class="pro-content">WebDesign | JS | Flexslider | GSAP | Bootstrap5</p>
+                        </div>
+                        <div class="overlay"></div>
+                        </figure>
+                        <a>
+                        </div>		
+                    </li>
+                    <li>
+                        <div class="box">
+                        <a href="#">
+                        <figure class="slide-img threezero">
+                        <div class="pro">
+                        <p class="pro-title">Threezero租屋網</p>
+                        <p class="pro-content">Nuxt | MongoDB | JS | Bootstrap5 | Strapi | Linode</p>
+                        </div>
+                        <div class="overlay"></div>
+                        </figure>
+                        <a>
+                        </div>
+                    </li>
+                        <li>
+                        <div class="box">
+                        <a href="#">
+                        <figure class="slide-img koparty">
+                        <div class="pro">
+                        <p class="pro-title">K.O. party</p>
+                        <p class="pro-content">Wordpress | JS | AJAX | Bootstrap5</p>
+                        </div>
+                        <div class="overlay"></div>
+                        </figure>
+                        <a>
+                        </div>		
+                    </li>
+                    <li>
+                        <div class="box">
+                        <a href="#">
+                        <figure class="slide-img catshop">
+                        <div class="pro">
+                        <p class="pro-title">窩底家</p>
+                        <p class="pro-content">WebDesign | JS | Flexslider | Bootstrap5</p>
+                        </div>
+                        <div class="overlay"></div>
+                        </figure>
+                        <a>
+                        </div>		
+                    </li>
+                    <li>
+                        <div class="box">
+                        <a href="#">
+                        <figure class="slide-img portfolio">
+                        <div class="pro">
+                        <p class="pro-title">About Nina</p>
+                        <p class="pro-content">WebDesign | JS | Flexslider | GSAP | Bootstrap5</p>
+                        </div>
+                        <div class="overlay"></div>
+                        </figure>
+                        <a>
+                        </div>		
+                    </li>
+                </ul>
             </div>
         </section>
 
-        <section  id="contact" class="section">
+        <section id="contact" class="contact section">
             <h5 class="left-item bg-item4 font-light">CONTACT</h5>
             <div class="shape-ex8 black-bg">
                 <h1 class="font-light">CONTACT</h1>
@@ -406,7 +428,7 @@
         <!-- Bootstrap JavaScript Libraries -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-        <script src="js/jquery.flexslider.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
         <script src='js/script.js'></script>
     </body>
 </html>
