@@ -5,7 +5,6 @@ $(function(){
 })
 
 $(function(){
-    $('.flexslider').flexslider({
         animation: "slide",
         animationLoop: true,
         minItems: 1,
