@@ -4,18 +4,19 @@ $(function(){
     })
 })
 
-$(function(){
-        animation: "slide",
-        animationLoop: true,
-        minItems: 1,
-        maxItems: 6,
-        move: 1,
-        itemWidth: 400,
-        itemMargin:30,
-        controlNav: false,
-    });
+$( "#autoWidth" ).lightSlider({ 
+    autoWidth:true,
+    gallery: false,
+    loop: true, 
+    slideMargin: 0,
+    enableTouch: true,
+    enableDrag: true, 
+    keyPress: true,
+    currentPagerPosition: 'middle',
+    onSliderLoad: function() {
+        $('#autoWidth').removeClass('cs-hidden');
+    } 
 });
-
 
 $(function(){
     var loading = new TimelineMax();
