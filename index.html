@@ -1,434 +1,251 @@
 <!doctype html>
-<html lang="en">
-    <head>
-        <title>About Nina</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA_Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-		<meta http-equiv="cache-control" content="no-cache">
-        <meta http-equiv="expires" content="0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inder&family=Jacques+Francois&display=swap" rel="stylesheet">
-        
-        <!-- Bootstrap CSS v5.0.2 -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <script
-            src="https://code.jquery.com/jquery-3.4.1.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <input type="checkbox" name="" id="menu-control">
-        <header class="header" id="navbar-collapse-toggle">
-            <div class="shape-ex9">
-                <h1>PORTFOLIO</h1>
-                <label for="menu-control" class="menu-btn">
-                    <span>選單</span>
-                </label>
-            </div>
-            <ul class='icon-menu'>
-                <li class="icon-box .menu-item">
-                    <i class="fa fa-home"></i>
-                    <a class="nav-link" href="#home"><p>HOME</p></a>
-                </li>
-                <li class="icon-box .menu-item">
-                    <i class="fa fa-user"></i>
-                    <a class="nav-link" href="#aboutme"><p>ABOUT ME</p></a>
-                </li>
-                <li class="icon-box .menu-item">
-                    <i class="fa fa-briefcase"></i>
-                    <a class="nav-link" href="#project"><p>PROJECT</p></a>
-                </li>
-                <li class="icon-box .menu-item">
-                    <i class="fa fa-comment"></i>
-                    <a class="nav-link" href="#contact"><p>CONTACT</p></a>
-                </li>
-            </ul>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nina 社群行銷接案｜FB 廣告・LINE 官方帳號・Google 商家</title>
+  <meta name="description" content="Nina 專為餐飲與建案提供社群行銷代操：FB／IG 貼文圖文與廣告投放、LINE 官方帳號活動與自動回覆、Google 商家經營、Google 關鍵字廣告。">
+  <meta property="og:title" content="Nina 社群行銷接案">
+  <meta property="og:description" content="幫在地餐飲與建案，把社群變成來客與詢問。">
+  <meta property="og:image" content="images/nina.jpg">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== 導覽列 ===== -->
+  <header class="nav" id="top">
+    <div class="wrap nav__inner">
+      <a href="#top" class="nav__logo">Nina<span>．社群行銷</span></a>
+      <button class="nav__toggle" aria-label="開啟選單" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span>
+      </button>
+      <nav class="nav__menu" id="nav-menu">
+        <a href="#services">服務項目</a>
+        <a href="#cases">成效案例</a>
+        <a href="#works">作品集</a>
+        <a href="#process">合作流程</a>
+        <a href="#about">關於我</a>
+        <a href="#contact" class="btn btn--line btn--sm js-line">加 LINE 諮詢</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== 首屏 ===== -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow">餐飲 ／ 建案 社群行銷代操</p>
+          <h1>幫在地店家與建案，<br>把社群變成<em>來客</em>與<em>詢問</em>。</h1>
+          <p class="lead">從 FB／IG 圖文與廣告、LINE 官方帳號活動，到 Google 商家與關鍵字廣告，一個人幫你串起「被看見 → 被記住 → 來詢問」整條路。</p>
+          <div class="hero__cta">
+            <a href="#contact" class="btn btn--line js-line">免費諮詢：加 LINE 聊聊</a>
+            <a href="#cases" class="btn btn--ghost">看成效案例</a>
+          </div>
+          <ul class="chips">
+            <li>Facebook / IG</li><li>LINE 官方帳號</li><li>Google 商家</li><li>Google Ads</li>
+          </ul>
+        </div>
+        <figure class="hero__photo">
+          <img src="images/nina.jpg" alt="Nina 本人照片" width="800" height="1003">
+          <figcaption>
+            <strong>Hi，我是 Nina</strong>
+            行銷系出身・會做圖也看數據
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== 服務項目 ===== -->
+    <section class="section" id="services">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">Services</p>
+          <h2>我可以幫你做什麼</h2>
+          <p>可單項委託，也可以整合成一套月費代操。</p>
         </header>
+        <div class="grid grid--4">
+          <article class="card service">
+            <span class="service__no">01</span>
+            <h3>FB／IG 經營與廣告</h3>
+            <p>貼文企劃、圖文設計、廣告投放與受眾測試，讓預算花在會上門的人身上。</p>
+            <ul class="ticks">
+              <li>每月貼文排程與圖文</li>
+              <li>廣告素材 A/B 測試</li>
+              <li>成效月報與優化建議</li>
+            </ul>
+          </article>
+          <article class="card service">
+            <span class="service__no">02</span>
+            <h3>LINE 官方帳號</h3>
+            <p>把一次性客人變成會回來的熟客：活動設計、自動回覆、圖文選單。</p>
+            <ul class="ticks">
+              <li>集點卡／優惠券活動</li>
+              <li>關鍵字自動回覆腳本</li>
+              <li>圖文選單與推播文案</li>
+            </ul>
+          </article>
+          <article class="card service">
+            <span class="service__no">03</span>
+            <h3>Google 商家</h3>
+            <p>客人搜尋「附近美食」「建案推薦」時，讓你的資訊完整、好看、值得點。</p>
+            <ul class="ticks">
+              <li>商家資訊與照片優化</li>
+              <li>定期發布商家貼文</li>
+              <li>評論回覆建議</li>
+            </ul>
+          </article>
+          <article class="card service">
+            <span class="service__no">04</span>
+            <h3>Google 關鍵字廣告</h3>
+            <p>抓住「正在找」的人：關鍵字規劃、廣告文案、轉換追蹤設定。</p>
+            <ul class="ticks">
+              <li>關鍵字與否定字規劃</li>
+              <li>搜尋／地圖廣告投放</li>
+              <li>來電、表單轉換追蹤</li>
+            </ul>
+          </article>
+        </div>
 
-        <section id="loader">
-            <div class="textwrapper">
-                <p class="text-1">HELLO!</p>
-                <p class="text-2">I'm Nina.</p>
-            </div>
-        </section>
+        <div class="industries">
+          <div class="industry">
+            <h3>餐飲業</h3>
+            <p>新店開幕、平日來客、外帶外送、節慶活動、熟客回訪。</p>
+          </div>
+          <div class="industry">
+            <h3>預售屋／建案</h3>
+            <p>公開前蓄客、接待中心預約、精準區域投放、名單收集。</p>
+          </div>
+          <div class="industry industry--soon">
+            <h3>美妝・電商 <span class="tag">即將開放</span></h3>
+            <p>新品上市、會員經營、導購廣告。歡迎先聊聊你的品牌。</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section id="home" class="home section">
-            <h5 class="left-item bg-item1 font-black">PORTFOLIO</h5>
-            <div class="container d-flex w-100 h-100">
-                <div class="row align-items-center">
-                    <div class="col text-end">
-                        <div class="shape-ex1"></div>
-                        <h1>PORTFOLIO</h1>
-                        <img src="https://scontent.frmq5-1.fna.fbcdn.net/v/t39.30808-6/272131306_658467338845982_8769407992309534773_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=abH9p9Bq1u0AX8I11Zx&_nc_ht=scontent.frmq5-1.fna&oh=00_AT9c7D1qweg7EtvuwFeb4JX9--DfhPwThor3hCAL0ZxpSw&oe=61EDADE8" alt="">
-                    </div>
-                    <div class="col-md-4 introduce">
-                        <h2>HELLO!</h2>
-                        <h3>I’m Nina</h3>
-                        <p>我叫潘凱盈，來自香港，來到台灣就讀大學，畢業於逢甲行銷系。在大學學習半學期基本概念，畢業後開始自學網頁設計，最後購買了有關課程學習，課程仍在進行中，現在對於網頁設計的基本概念、Frontend 和 Backend都有一定的認識。</p>
-                    </div>
-                    <div class="col-md-1">
-                        <div class='podata'><h6>2017 | 2022</h6></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- ===== 成效案例 ===== -->
+    <section class="section section--dark" id="cases">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">Case Studies</p>
+          <h2>成效案例</h2>
+          <p>每個案例都用「問題 → 做法 → 成果」說清楚。</p>
+        </header>
+        <!-- 案例內容在 js/content.js 裡修改 -->
+        <div class="cases" id="case-list"></div>
+      </div>
+    </section>
 
-        <section id="aboutme" class="aboutme section">
-            <h5 class="right-item bg-item2 font-light">ABOUT ME</h5>
-            <div class="shape-ex2"></div>
-            <div class="container">
-                <div class="row">
-                    <h1>ABOUT ME</h1>
-                </div>
-            </div>
-            <div class="container infrome">
-                <div class="row">
-                    <div class="col-md-4">
-                        <p>Name : 潘凱盈 POON HOI YING</p>
-                        <p>Birthday : 1999/01/05</p>
-                        <p>Age : 22 Years</p>
-                    </div>
-                    <div class="col-md-5">
-                        <p>Nationality  :  香港 Hong Kong</p>
-                        <p>Addres : 台中 Taichung</p>
-                    </div>
-                    <div class="col"></div>
-                </div>
-            </div>
-            <div class="shape-ex3"></div>
-            <div class="shape-ex4">
-                <div class="overlay"></div>
-            </div>
-            <div class="container skill-item">
-                <div class="row">
-                    <div class="col-md-4 font-black skill-item-light">
-                        <h4>Web</h4>
-                        <p class="pre-wrap skill-p">
-・ 熟悉 HTML5 / CSS3 網設 
-・ 手刻 RWD 響應式網站
-・ 熟悉 Bootstrap 使用
-                        </p>
-                    </div>
-                    <div class="col-md-4 font-light">
-                        <h4>Frontend</h4>
-                        <p class="pre-wrap skill-p skill-item-light">
-・ 了解 JavaScript 基本語法 
-・ 略懂 ES6 語言特性
-・ 了解 jQuery 基礎略懂應用
-・ 使用 GSAP3 做動畫與特效
-・ 使用 Vue.js 完成 SPA 網站
-・ 略懂 Nuxt.js 
-・ 學習串接 API 中
-                        </p>
-                    </div>
-                    <div class="col-md-4 font-light skill-item-black">
-                        <h4>Backend</h4>
-                        <p class="pre-wrap skill-p">
-・ 了解 PHP 基本語法 
-・ 使用 MYSQL 
-・ 使用 Wordpress 架網站
-・ 略懂 Strapi 
-・ 略懂 Nodejs 
-・ 略懂 AXIOS
-・ 略懂 Restful API
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 font-black">
-                        <h4>Tools</h4>
-                        <p class="pre-wrap skill-p">
-・ VS Code
-・ Dreamweaver
-・ Adobe Photoshop
-・ Adobe llustrator
-・ Adobe InDesign
-・ Adobe XD
-・ Zeplin
-・ Figma
-                        </p>
-                    </div>
-                    <div class="col-md-4 font-black">
-                        <h4>Design Skills</h4>
-                        <p class="pre-wrap skill-p">
-・ 網頁設計
-・ 網頁設計配色
-・ 網頁切版
-・ APP使用者介面設計
-・ 電腦排版設計
-・ 電腦繪圖軟體操作
-・ 繪圖工具與軟體操作
-・ 繪圖軟體安裝設定
-                        </p>
-                    </div>
-                    <div class="col-md-4 font-black">
-                        <h4>Other</h4>
-                        <p class="pre-wrap skill-p">
-・ 商業模式九宮格
-・ PEST 分析法
-・ SWOT 分析
-・ 顧客旅程地圖
-・ 服務傳遞流程圖
-・ 顧客五感量表
-・ 服務花朵圖
-・ 同理心地圖
-・ 人物誌Persona
-・ 問卷調查
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="shape-ex5 light-bg"></div>
-            <div class="container">
-                <div class="row font-black float1">
-                    <h3>EXPERIENCE & EDUCATION</h3>
-                </div>
-                <div class="row font-black">
-                    <div class="col-md-7">
-                        <div class="row edu">
-                            <div class="col-md-3">
-                                <div class="set-1">
-                                    <div class="line"></div>
-                                    <div class="icon-box black-bg">
-                                        <i class="fa fa-graduation-cap"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <p>2010 - 2016</p>
-                                <p>香海正覺蓮社佛教正覺中學 , 香港</p>
-                                <br>
-                                <p>2017 - 2021</p>
-                                <p>逢甲大學 , 學士學位 , 行銷學系 , 台灣</p>
-                            </div>
-                        </div>
-                        <div class="row work edu">
-                            <div class="col-md-3">
-                                <div class="set-1">
-                                    <div class="line"></div>
-                                    <div class="icon-box black-bg">
-                                        <i class="fa fa-briefcase"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <p>2021 / 01 - 06</p>
-                                <p>逢甲大學 , 社群網絡與設計策略 , 台灣</p>
-                                <li>學習 HTML & CSS 基本概念</li>
-                                <br>
-                                <p>2021 / 10 - PRESENT</p>
-                                <p>鬍子科技學院 , 全職網頁開發 , 香港</p>
-                                <li>學習基本概念、Frontend 和 Backend</li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col font-light set-2">
-                        <h3>LANGUAGE</h3>
-                        <div class="item-1">
-                            <p>粵語
-                                <div class="circle light-bg"></div>
-                                <div class="circle light-bg"></div>
-                                <div class="circle light-bg"></div>
-                                <div class="circle light-bg"></div>
-                                <div class="circle light-bg"></div>
-                            </p>
-                        </div>
-                        <div class="item-1">
-                            <p>中文
-                                <div class="circle light-bg"></div>
-                                <div class="circle light-bg"></div>
-                                <div class="circle light-bg"></div>
-                                <div class="semicircle light-bg"></div>
-                                <div class="circle circle-border"></div>
-                                <div class="circle circle-border"></div>
-                            </p>
-                        </div>
-                        <div class="item-1">
-                            <p>英文
-                                <div class="circle light-bg"></div>
-                                <div class="circle light-bg"></div>
-                                <div class="semicircle light-bg"></div>
-                                <div class="circle circle-border"></div>
-                                <div class="circle circle-border"></div>
-                                <div class="circle circle-border"></div>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="shape-ex6 black-bg">
-                </div>
-            </div>
-        </section>
+    <!-- ===== 作品集 ===== -->
+    <section class="section" id="works">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">Works</p>
+          <h2>圖文與設計作品</h2>
+        </header>
+        <div class="filters" role="tablist" id="work-filters"></div>
+        <!-- 作品內容在 js/content.js 裡修改 -->
+        <div class="works" id="work-list"></div>
+      </div>
+    </section>
 
-        <section id="project" class="project section">
-            <h5 class="right-item bg-item3 font-light">PROJECT</h5>
-            <div class="shape-ex7 light-bg">
-                <div class="overlay"></div>
-            </div>
-            <div class="container">
-                <div class="row font-black">
-                    <h1>PROJECT</h1>
-                </div>
-            </div>
-            <div id="wrapper">
-                <ul id="autoWidth" class="cs-hidden">
-                    <li>
-                        <div class="box">
-                        <a href="#">
-                        <figure class="slide-img threezero">
-                        <div class="pro">
-                        <p class="pro-title">Threezero租屋網</p>
-                        <p class="pro-content">Nuxt | MongoDB | JS | Bootstrap5 | Strapi | Linode</p>
-                        </div>
-                        <div class="overlay"></div>
-                        </figure>
-                        <a>
-                        </div>
-                    </li>
-                        <li>
-                        <div class="box">
-                        <a href="#">
-                        <figure class="slide-img koparty">
-                        <div class="pro">
-                        <p class="pro-title">K.O. party</p>
-                        <p class="pro-content">Wordpress | JS | AJAX | Bootstrap5</p>
-                        </div>
-                        <div class="overlay"></div>
-                        </figure>
-                        <a>
-                        </div>		
-                    </li>
-                    <li>
-                        <div class="box">
-                        <a href="#">
-                        <figure class="slide-img catshop">
-                        <div class="pro">
-                        <p class="pro-title">窩底家</p>
-                        <p class="pro-content">WebDesign | JS | Flexslider | Bootstrap5</p>
-                        </div>
-                        <div class="overlay"></div>
-                        </figure>
-                        <a>
-                        </div>		
-                    </li>
-                    <li>
-                        <div class="box">
-                        <a href="#">
-                        <figure class="slide-img portfolio">
-                        <div class="pro">
-                        <p class="pro-title">About Nina</p>
-                        <p class="pro-content">WebDesign | JS | Flexslider | GSAP | Bootstrap5</p>
-                        </div>
-                        <div class="overlay"></div>
-                        </figure>
-                        <a>
-                        </div>		
-                    </li>
-                    <li>
-                        <div class="box">
-                        <a href="#">
-                        <figure class="slide-img threezero">
-                        <div class="pro">
-                        <p class="pro-title">Threezero租屋網</p>
-                        <p class="pro-content">Nuxt | MongoDB | JS | Bootstrap5 | Strapi | Linode</p>
-                        </div>
-                        <div class="overlay"></div>
-                        </figure>
-                        <a>
-                        </div>
-                    </li>
-                        <li>
-                        <div class="box">
-                        <a href="#">
-                        <figure class="slide-img koparty">
-                        <div class="pro">
-                        <p class="pro-title">K.O. party</p>
-                        <p class="pro-content">Wordpress | JS | AJAX | Bootstrap5</p>
-                        </div>
-                        <div class="overlay"></div>
-                        </figure>
-                        <a>
-                        </div>		
-                    </li>
-                    <li>
-                        <div class="box">
-                        <a href="#">
-                        <figure class="slide-img catshop">
-                        <div class="pro">
-                        <p class="pro-title">窩底家</p>
-                        <p class="pro-content">WebDesign | JS | Flexslider | Bootstrap5</p>
-                        </div>
-                        <div class="overlay"></div>
-                        </figure>
-                        <a>
-                        </div>		
-                    </li>
-                    <li>
-                        <div class="box">
-                        <a href="#">
-                        <figure class="slide-img portfolio">
-                        <div class="pro">
-                        <p class="pro-title">About Nina</p>
-                        <p class="pro-content">WebDesign | JS | Flexslider | GSAP | Bootstrap5</p>
-                        </div>
-                        <div class="overlay"></div>
-                        </figure>
-                        <a>
-                        </div>		
-                    </li>
-                </ul>
-            </div>
-        </section>
+    <!-- ===== 合作流程 ===== -->
+    <section class="section section--tint" id="process">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">Process</p>
+          <h2>合作流程</h2>
+        </header>
+        <ol class="steps">
+          <li><span>1</span><h3>免費諮詢</h3><p>加 LINE 聊聊你的店／建案、目前遇到的問題與預算。</p></li>
+          <li><span>2</span><h3>診斷與提案</h3><p>檢視現有粉專、LINE、Google 商家，提出具體方案與報價。</p></li>
+          <li><span>3</span><h3>執行</h3><p>確認素材與排程後開始上線，重要內容發布前都會給你確認。</p></li>
+          <li><span>4</span><h3>月報檢討</h3><p>每月整理數據：觸及、詢問、來客，說明下個月怎麼調整。</p></li>
+        </ol>
 
-        <section id="contact" class="contact section">
-            <h5 class="left-item bg-item4 font-light">CONTACT</h5>
-            <div class="shape-ex8 black-bg">
-                <h1 class="font-light">CONTACT</h1>
-            </div>
-            <div class="container text-end">
-                <div class="row text-center font-black">
-                    <h4>GET IN TOUCH</h4>
-                </div>
-                <div class="row ">
-                    <div class="col-md-12 text-center">
-                        <div class="btn-item black-bg phone-btn">
-                            <a class="btn-text" href="tel:0960901515">
-                                <p>CALL ME</p>
-                                <p>0960901515</p>
-                            </a>
-                            <i class="fa fa-phone"></i>
-                        </div>
-                        <div class="btn-item black-bg mail-btn">
-                            <a class="btn-text" href="mailto:selenaniiiiii@gmail.com">
-                                <p>MAIL ME</p>
-                                <p>selenaniiiiii@</p>
-                                <p>gmail.com</p>
-                            </a>
-                            <i class="fa fa-envelope"></i>
-                        </div>
-                        <div class="btn-item black-bg github-btn">
-                            <a class="btn-text" href="https://github.com/nnnina15">
-                                <p>GitHub</p>
-                                <p>nnnina15</p>
-                            </a>
-                            <i class="fa fa-github"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <div class="plans">
+          <article class="card plan">
+            <h3>單項委託</h3>
+            <p class="plan__price">依項目報價</p>
+            <p>只想先做 LINE 活動、Google 商家整理，或單次廣告投放。</p>
+          </article>
+          <article class="card plan plan--hot">
+            <span class="tag">推薦</span>
+            <h3>社群月費代操</h3>
+            <p class="plan__price">月費制・歡迎詢價</p>
+            <p>FB／IG 貼文＋廣告＋LINE 推播，一次整合、每月月報。</p>
+          </article>
+          <article class="card plan">
+            <h3>廣告代操</h3>
+            <p class="plan__price">服務費＋廣告預算</p>
+            <p>Meta 與 Google 廣告投放、素材測試與成效追蹤。</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <!-- Bootstrap JavaScript Libraries -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
-        <script src='js/script.js'></script>
-    </body>
+    <!-- ===== 關於我 ===== -->
+    <section class="section" id="about">
+      <div class="wrap about">
+        <div class="about__text">
+          <p class="eyebrow">About</p>
+          <h2>關於 Nina</h2>
+          <p>我是 Nina（潘凱盈），香港人，在台中生活。逢甲大學行銷系畢業，後來自學網頁設計與前端，所以我做行銷時同時在意兩件事：<strong>畫面要好看</strong>，<strong>數字要說得出來</strong>。</p>
+          <p>目前主要接餐飲與預售屋案子，負責 FB 廣告與圖文、LINE 官方帳號、Google 商家與 Google 廣告的整體經營。比起一次性的漂亮貼文，我更在意客人有沒有真的上門、有沒有留下名單。</p>
+          <ul class="facts">
+            <li><b>學歷</b>逢甲大學 行銷學系</li>
+            <li><b>工具</b>Photoshop・Illustrator・Figma・Canva・Meta 企業管理平台・Google Ads</li>
+            <li><b>語言</b>國語・粵語・英文</li>
+            <li><b>地區</b>台中為主，可遠端合作</li>
+          </ul>
+        </div>
+        <div class="faq">
+          <h3>常見問題</h3>
+          <details>
+            <summary>預算不多也可以合作嗎？</summary>
+            <p>可以。可以先從單項開始，例如整理 Google 商家或做一檔 LINE 活動，看到效果再擴大。</p>
+          </details>
+          <details>
+            <summary>需要我自己提供照片嗎？</summary>
+            <p>有現成照片最好；沒有的話可以一起規劃拍攝清單，或先用設計型圖文為主。</p>
+          </details>
+          <details>
+            <summary>廣告預算要另外付嗎？</summary>
+            <p>是的，廣告費直接由你的帳戶支付給 Meta／Google，我收取的是代操服務費，花費透明。</p>
+          </details>
+          <details>
+            <summary>合作有綁約嗎？</summary>
+            <p>月費代操建議至少 3 個月，才有足夠數據優化；單項委託沒有綁約。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 聯絡 ===== -->
+    <section class="contact" id="contact">
+      <div class="wrap contact__inner">
+        <h2>想讓更多人走進你的店？</h2>
+        <p>告訴我你的產業、目前在用的平台和想解決的問題，我會在 1 個工作天內回覆。</p>
+        <div class="contact__cta">
+          <a href="#" class="btn btn--line btn--lg js-line">加 LINE 免費諮詢</a>
+          <a href="#" class="btn btn--light js-mail">寄 Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">© <span id="year"></span> Nina 社群行銷．台中</div>
+  </footer>
+
+  <a href="#" class="float-line js-line" aria-label="加 LINE 諮詢">LINE 諮詢</a>
+
+  <script src="js/content.js"></script>
+  <script src="js/main.js"></script>
+</body>
 </html>
