@@ -5,7 +5,7 @@
 ## 怎麼改內容
 大部分內容都在 **`js/content.js`**：
 - `CONTACT`：LINE 加好友連結、Email（上線前務必換成你自己的）
-- `CASES`：成效案例。換成真實案例後，把 `sample: true` 改成 `false`，「範例」標籤就會消失
+- `CASES`：成效案例。只有 `sample: false` 的真實案例會顯示；全部是範例時，整個案例區會自動隱藏
 - `WORKS`：作品集。圖片放進 `images/` 資料夾，`category` 會自動產生篩選按鈕
 
 服務項目、合作方案、關於我、常見問題這些文字，直接在 `index.html` 裡修改。

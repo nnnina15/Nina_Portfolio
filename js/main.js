@@ -26,8 +26,18 @@
     })
   );
 
-  /* 案例 */
-  $("#case-list").innerHTML = CASES.map(
+  /* 案例：只顯示真實案例（sample: false）；一個都沒有就隱藏整區 */
+  const realCases = CASES.filter((c) => !c.sample);
+  if (!realCases.length) {
+    $("#cases").hidden = true;
+    $$('a[href="#cases"]').forEach((a) => {
+      if (a.closest(".hero__cta")) {
+        a.href = "#works";
+        a.textContent = "看作品集";
+      } else a.hidden = true;
+    });
+  }
+  $("#case-list").innerHTML = realCases.map(
     (c) => `
     <article class="case">
       <div class="case__top">

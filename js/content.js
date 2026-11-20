@@ -5,14 +5,14 @@
 
 /* ---------- 1. 聯絡方式 ---------- */
 const CONTACT = {
-  // ⚠️ 換成你的 LINE 官方帳號或個人 LINE 加好友連結
-  // 例：https://line.me/R/ti/p/@123abcde
-  line: "https://line.me/R/ti/p/@your-line-id",
-  email: "your-email@example.com", // ⚠️ 換成你的接案 Email
+  line: "https://line.me/ti/p/0XCNZ6h-vl", // LINE ID：sugartyyyy
+  email: "Candypoon2@gmail.com",
 };
 
 /* ---------- 2. 成效案例 ----------
-   sample: true  → 卡片會顯示「範例」標籤，換成真實案例後改成 false
+   sample: true  → 範例資料，不會顯示在網站上
+   sample: false → 真實案例，會顯示在網站上
+   全部都是 sample: true 時，「成效案例」區塊和選單連結會自動隱藏
    metrics       → 成果數字，建議 2~3 個
 */
 const CASES = [

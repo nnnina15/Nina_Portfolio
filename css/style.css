@@ -296,3 +296,5 @@ p { margin: 0; }
   .float-line { display: inline-flex; }
   .contact { padding-bottom: 104px; }
 }
+
+[hidden] { display: none !important; }
