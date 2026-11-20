@@ -71,6 +71,8 @@ const CASES = [
    img 放在 images/ 資料夾
 */
 const WORKS = [
+  { category: "預購／接單系統", title: "風味食堂｜年菜線上預購", desc: "手機點餐 4 步驟：取餐方式、訂購人、付款，訂單編號 + LINE 回報匯款", img: "images/work-preorder.jpg" },
+  { category: "預購／接單系統", title: "風味食堂｜付款與訂單確認頁", desc: "匯款資訊一鍵複製、付款期限提醒、導 LINE 好友回報帳號後五碼", img: "images/work-preorder-pay.jpg" },
   { category: "社群圖文", title: "柚之道展覽｜海報與 IG 圖文", desc: "茶館展覽主視覺、系列海報、IG 活動倒數貼文", img: "images/work-poster2.jpg" },
   { category: "網站與介面", title: "寵物家具電商網站", desc: "電商首頁與商品列表設計", img: "images/work-catshop.jpg" },
   { category: "網站與介面", title: "寵物社群 App 介面", desc: "App UI 流程與畫面設計", img: "images/work-app.jpg" },
